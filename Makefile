@@ -19,9 +19,9 @@ build: $(TARGETS)
 clean: $(TARGETS:%=%_clean)
 	rm -f $(OUTPUT)/*.img $(OUTPUT)/*.xz
 
-ARMBIAN_PKG_UBUNTU := Armbian_22.11.1_Rock64_jammy_current_5.15.80_xfce_desktop.img.xz
-ARMBIAN_PKG_DEBIAN := Armbian_22.11.1_Rock64_bullseye_current_5.15.80.img.xz
-ARMBIAN_PKG_DEBIAN_MINI := Armbian_22.11.1_Rock64_bullseye_current_5.15.80_minimal.img.xz
+ARMBIAN_PKG_UBUNTU := Armbian_23.8.1_Rock64_jammy_current_6.1.50_xfce_desktop.img.xz
+ARMBIAN_PKG_DEBIAN := Armbian_23.8.1_Rock64_bullseye_current_6.1.50.img.xz
+ARMBIAN_PKG_DEBIAN_MINI := Armbian_23.8.1_Rock64_bullseye_current_6.1.50_minimal.img.xz
 
 #ifneq ($(TRAVIS_TAG),)
 ARMBIAN_URL_BASE := https://dl.armbian.com/rock64/archive
